@@ -6,7 +6,8 @@ test.describe('Notes Application', () => {
   });
 
   test('should load and display posts', async ({ page }) => {
-    // Wait for posts to load
+    // Wait for posts to load\
+    //Hello world
     await expect(page.locator('.posts-grid')).toBeVisible();
     
     // Check if multiple posts are displayed
